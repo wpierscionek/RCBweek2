@@ -1,0 +1,387 @@
+*{
+	text-decoration: none;
+	list-style: none;
+	margin:0px auto;
+	padding: 0px;
+  	box-sizing: border-box;
+}
+.hr_1{
+	width: 586px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.hr_2{
+	width: 200px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 20px;
+}
+#wrapper{
+	width: 1280px;
+}
+#header{
+	float: left;
+	width: 1280px;
+	height: 90px;
+	background-color: #fff;
+	border-bottom: solid 2px #ccc;
+}
+#header h1{
+	float: left;
+	width: 400px;
+	height: 90px;
+	margin-left: 100px;
+	text-align: center;
+	line-height: 2.8;
+	font-size: 28px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa4;
+	color: #fff;
+}
+.main_menu{
+	text-align: right;
+}
+.main_menu, ul{
+	margin: 35px 270px 0px 0px;
+	font-size: 18px;;
+}
+.main_menu li{
+	float: right;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+.main_menu a{
+	color: #777;
+}
+.main_menu a:hover{
+	color: rgba(75, 170, 164, 0.55);
+}
+#article{
+	float: left;
+	width: 650px;
+	margin-top: 20px;
+	margin-bottom: 32px;
+	margin-left: 100px;
+	line-height: 2em;
+	background-color: #fff;
+	border:solid 1px #ddd;
+}
+#article h1{
+	height: 80px;
+	margin: 30px 0px 0px 30px;
+	font-size: 35px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+#article section img {
+	float: left;
+	padding: 30px 26px 26px 20px;
+}
+#article section p{
+	text-align: left;
+	padding: 20px 20px;
+	color:#777;
+}
+#aside{
+	float: left;
+	width: 270px;
+	height: 230px;
+	margin:20px 0px 0px 20px;
+	background-color: #ffffff;
+	border: solid 1px #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+}
+#aside h3{
+	margin-top: 30px;
+	font-size: 24px;
+	color: #4aaaa5;
+	text-align: center;
+}
+#aside img{
+	margin-top: 30px;
+	padding: 5px;
+	width: 70px;
+	height: 70px;
+}
+#aside img:hover{
+	background-color: rgba(75, 170, 164, 0.55);
+}
+
+#footer{
+	clear:both;
+	width: 1280px;
+	height: 100px;
+	border-top: solid 10px #4aaaa4;
+	background-color: #666666;
+	text-align: center;
+}
+#footer p{
+	position: relative;
+	padding-top: 40px;
+	font-size: 1.0em;
+	color: #fff;
+}	
+/*css for contact page starts here*/
+form{
+	width: 650px;
+	margin: 20px auto;
+}
+label{
+	display: block;
+	margin: 5px 0px 5px 35px;
+}
+input{
+	width: 590px;
+	height: 30px;
+	margin: 0px 0px 0px 20px;
+	color: #666;
+	font-size: 18px;
+}
+textarea{
+	width: 590px;
+	height: 250px;
+	margin: 0px 0px 0px 20px;
+	color: #666;
+	font-size: 18px;
+}
+fieldset{
+	border: none;
+	background-color: #fff;
+	color: #666;
+	font-size: 21px;
+
+}
+.btn{
+	width: 125px;
+	height: 45px;
+	border: none;
+	background-color: #4aaaa4;
+	color: #fff;
+	font-size: 21px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.btn:hover{
+	background-color: rgba(75, 170, 164, 0.55);
+}
+/*css for portfolio page starts here*/
+#article_portfolio{
+	float: left;
+	width: 650px;
+	margin-top: 20px;
+	margin-bottom: 32px;
+	margin-left: 100px;
+	line-height: 2em;
+	background-color: #fff;
+	border:solid 1px #ddd;
+}
+#article_portfolio h1{
+	height: 80px;
+	margin: 30px 0px 0px 30px;
+	font-size: 35px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+#article_portfolio img{
+	position: relative;
+	display: inline-block;
+	width: 260px;
+	height: 200px;
+	float: left;
+	padding: 26px 26px 26px 20px;
+}
+#article_portfolio img:hover{
+	background-color: rgba(75, 170, 164, 0.55);
+}
+#hangman h3{
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 20px;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 260px;
+	padding: 9px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+#rpggame h3{
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 326px;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 260px;
+	padding: 9px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+#triviagame h3{
+	position: absolute;
+	margin-top: 410px;
+	margin-left: 20px;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 260px;
+	padding: 9px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+#rutgers_info_widget h3{
+	position: absolute;
+	margin-top: 410px;
+	margin-left: 326px;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 260px;
+	padding: 9px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+#rock_paper_scissors h3{
+	position: absolute;
+	margin-top: 665px;
+	margin-left: 20px;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 260px;
+	padding: 9px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+/*responsive website code starts here*/
+
+@media screen and (max-width: 980px) {
+
+.hr_1{
+	width:50%;
+}
+#wrapper{
+	width:100%;
+}
+#header{
+	width: 100%;
+}
+.main_menu{
+	width: 100%;
+	margin-right: 100px;
+}
+#article{
+	width: 50%;
+}
+#article form{
+	position: relative;
+	width: 10%;
+	margin-left: 0px;
+}
+#article_portfolio{
+	width: 50%;
+}
+#aside{
+	width: 30%;
+}
+#footer{
+	width: 100%;
+}
+}
+/*MEDIA SCREEN 768px*/
+@media screen and (max-width: 768px) {
+
+#wrapper{
+	width:100%;
+}
+#header{
+	width: 100%;
+}
+.main_menu{
+	width: 100%;
+	margin: 0px;
+}
+#article{
+	width: 100%;
+	margin: 0px;
+}
+#article_portfolio{
+	width: 100%;
+	margin: 0px;
+}
+#article form, textarea{
+	width: 100%;
+	margin: 0px;
+}
+#aside{
+	width: 100%;
+	margin:0px;
+}
+#footer{
+	width: 100%;
+	margin: 0px;
+}
+}
+/*MEDIA SCREEN 480px*/
+@media screen and (max-width: 480px) {
+
+.hr_1{
+	width: 80%;
+}
+#wrapper{
+	width:100%;
+}
+#header{
+	width: 100%;
+}
+#header h1{
+	width: 100%;
+	margin: 0px;
+}
+.main_menu{
+	width: 100%;
+	clear: both;
+	padding-right: 100px;
+	padding-top: 40px;
+	background-color: #fff;
+	height: 100px;
+}
+#article{
+	width: 100%;
+	margin-top: 130px;
+}
+#article img{
+	width: 100%;
+}
+input{
+	width:400px;
+}
+#article_portfolio{
+	width: 100%;
+	height: 100%;
+	margin-top: 130px;
+}
+#article_portfolio img{
+	position: static;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+#article_portfolio h3{
+	display: inline-block;
+	position: relative;
+	width: 590px;
+	height: 100px;
+	margin: 0 auto;
+	padding-right: 120px;
+}
+#aside{
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#footer{
+	width: 100%;
+}
+}
