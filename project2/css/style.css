@@ -1,0 +1,13 @@
+
+.panel-body h1{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 38px;
+
+}
+
+.panel-body p {
+	font-size: 16px; 
+	line-height: 1.5em;
+	letter-spacing: 1px;
+	margin-left: 10px;
+}
