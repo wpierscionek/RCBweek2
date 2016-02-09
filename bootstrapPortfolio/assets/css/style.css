@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+html body{
+  height: 100%;
+  background-repeat: no-repeat;
+  background: url(https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg);
+}
+.container{
+ width: 100%;
+ height: 100%;
+}
+.jumbotron{
+  margin-top: 350px;
+  background-color: rgba(252, 252, 252, 0.8);
+}
+.jumbotron p{
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 30px;
+}
+.col-md-12{
+  position:;
+  margin-top: 215px;
+  height: 100px;
+  font-family: "Times New Roman", Georgia, Serif;
+  background: rgba(0, 0, 0, 0.3);
+}
+.col-md-12 p{
+  font-size: 14px;
+  margin-top: 50px;
+  color: #fff;
+}
+/*Portfolio page starts here*/
+.col-md-4{
+  background-color: rgba(252, 252, 252, 0.8);
+  margin-top: 10px;
+}
+.col-md-4 img{
+  padding: 10px;
+}
+.col-md-6 h1{
+  border-bottom: solid 1px #b8b8b8;
+  text-align: center;
+  padding: 10px;
+}
+.col-md-6{
+  background-color: rgba(252, 252, 252, 0.8);
+  height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.col-md-6 p{
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 17px;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+.col-md-6 p:first-letter{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.col-md-6 a{
+  float:right;
+  margin-top: 0px;
+}
+.col-md-6 img{
+  display: inline-block;
+  float: right;
+  padding: 5px;
+}
+.col-md-6 img:hover{
+  border:solid 1px #000;
+}
+.col-md-2{
+  background: rgba(252, 252, 252, 0.8);
+  height: 170px;
+  margin-top: 10px;
+}
+.col-md-4 h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Georgia, Serif;
+  border-bottom: solid 2px #b8b8b8;
+}
