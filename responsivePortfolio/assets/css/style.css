@@ -33,7 +33,7 @@
 }
 #header h1{
 	float: left;
-	width: 400px;
+	width: 300px;
 	height: 90px;
 	margin-left: 100px;
 	text-align: center;
@@ -129,7 +129,8 @@
 }	
 /*css for contact page starts here*/
 form{
-	width: 650px;
+	position: relative;
+	width: auto;
 	margin: 20px auto;
 }
 label{
@@ -155,7 +156,6 @@ fieldset{
 	background-color: #fff;
 	color: #666;
 	font-size: 21px;
-
 }
 .btn{
 	width: 125px;
@@ -191,77 +191,78 @@ fieldset{
 	position: relative;
 	display: inline-block;
 	width: 260px;
-	height: 200px;
-	float: left;
-	padding: 26px 26px 26px 20px;
+	height: 260px;
+	padding: 26px 26px 0px 20px;
+	z-index: 1;
 }
 #article_portfolio img:hover{
 	background-color: rgba(75, 170, 164, 0.55);
 }
 #hangman h3{
 	position: absolute;
-	margin-top: 160px;
-	margin-left: 20px;
+	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 260px;
-	padding: 9px 0px;
-	text-align: center;
-	vertical-align: middle;
+	width: 235px;
+	height: 50px;
+	top: 420px;
+	z-index: 2;
+	margin-left: 20px;
+	
 }
 #rpggame h3{
 	position: absolute;
-	margin-top: 160px;
-	margin-left: 326px;
+	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 260px;
-	padding: 9px 0px;
-	text-align: center;
-	vertical-align: middle;
+	width: 235px;
+	height: 50px;
+	top: 690px;
+	z-index: 2;
+	margin-left: 20px;
 }
 #triviagame h3{
 	position: absolute;
-	margin-top: 410px;
-	margin-left: 20px;
+	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 260px;
-	padding: 9px 0px;
-	text-align: center;
-	vertical-align: middle;
+	width: 235px;
+	height: 50px;
+	top: 960px;
+	z-index: 2;
+	margin-left: 20px;
 }
 #rutgers_info_widget h3{
 	position: absolute;
-	margin-top: 410px;
-	margin-left: 326px;
+	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 260px;
-	padding: 9px 0px;
-	text-align: center;
-	vertical-align: middle;
+	width: 235px;
+	height: 50px;
+	top: 1230px;
+	z-index: 2;
+	margin-left: 20px;
 }
 #rock_paper_scissors h3{
 	position: absolute;
-	margin-top: 665px;
-	margin-left: 20px;
+	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 260px;
-	padding: 9px 0px;
-	text-align: center;
-	vertical-align: middle;
+	width: 235px;
+	height: 50px;
+	top: 1500px;
+	z-index: 2;
+	margin-left: 20px;
 }
 /*responsive website code starts here*/
 
 @media screen and (max-width: 980px) {
 
 .hr_1{
-	width:50%;
+	width: 90%;
 }
 #wrapper{
-	width:100%;
+	width: 100%;
 }
 #header{
 	width: 100%;
@@ -270,16 +271,85 @@ fieldset{
 	width: 100%;
 	margin-right: 100px;
 }
+.main_menu li{
+	margin-right: 45px;
+}
 #article{
 	width: 50%;
+	margin: 20px 0px 20px 100px;
 }
-#article form{
-	position: relative;
-	width: 10%;
-	margin-left: 0px;
+#article form, fieldset, label, input, textarea{
+	width:  90%;
+}
+#article img{
+	width: 100%;
 }
 #article_portfolio{
 	width: 50%;
+}
+#article_portfolio img{
+	width: 100%;
+}
+#hangman h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 422px;
+	height: 50px;
+	top: 420px;
+	z-index: 2;
+	margin-left: 20px;
+	padding-top: 10px;
+	
+}
+#rpggame h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 422px;
+	height: 50px;
+	top: 690px;
+	z-index: 2;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+#triviagame h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 422px;
+	height: 50px;
+	top: 960px;
+	z-index: 2;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+#rutgers_info_widget h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 422px;
+	height: 50px;
+	top: 1230px;
+	z-index: 2;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+#rock_paper_scissors h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 422px;
+	height: 50px;
+	top: 1500px;
+	z-index: 2;
+	margin-left: 20px;
+	padding-top: 10px;
 }
 #aside{
 	width: 30%;
@@ -291,35 +361,109 @@ fieldset{
 /*MEDIA SCREEN 768px*/
 @media screen and (max-width: 768px) {
 
+.hr_1{
+	width: 90%;
+}
 #wrapper{
-	width:100%;
+	width: 100%;
 }
 #header{
-	width: 100%;
+	width: 89%;
+	margin: 20px 5px 20px 60px;
+}
+#header h1{
+	margin: 0px 0px 0px 20px;
 }
 .main_menu{
 	width: 100%;
-	margin: 0px;
+	margin-right: 100px;
+}
+.main_menu li{
+	margin-right: 30px;
 }
 #article{
+	width: 90%;
+	margin: 20px 5px 20px 60px;
+}
+#article form, fieldset, label, input, textarea{
+	width:  90%;
+}
+#article img{
 	width: 100%;
-	margin: 0px;
 }
 #article_portfolio{
-	width: 100%;
-	margin: 0px;
+	width: 89%;
+	margin: 20px 5px 20px 60px;
 }
-#article form, textarea{
-	width: 100%;
-	margin: 0px;
+#article_portfolio img{
+	width: 50%;
+	float: left;
+}
+#hangman h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 276px;
+	height: 50px;
+	top: 450px;
+	z-index: 2;
+	margin-left: 20px;
+	
+}
+#rpggame h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 276px;
+	height: 50px;
+	top: 710px;
+	z-index: 2;
+	margin-left: 20px;
+}
+#triviagame h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 276px;
+	height: 50px;
+	top: 980px;
+	z-index: 2;
+	margin-left: 20px;
+}
+#rutgers_info_widget h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 276px;
+	height: 50px;
+	top: 450px;
+	left: 384px;
+	z-index: 2;
+	margin-left: 20px;
+}
+#rock_paper_scissors h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 276px;
+	height: 50px;
+	top: 710px;
+	left: 384px;
+	z-index: 2;
+	margin-left: 20px;
 }
 #aside{
-	width: 100%;
-	margin:0px;
+	width: 89%;
+	margin: 20px 5px 20px 60px;
 }
 #footer{
-	width: 100%;
-	margin: 0px;
+	width: 89%;
+	margin: 20px 5px 0px 60px;
 }
 }
 /*MEDIA SCREEN 480px*/
@@ -333,6 +477,7 @@ fieldset{
 }
 #header{
 	width: 100%;
+	margin: 20px 10px 0px 10px;
 }
 #header h1{
 	width: 100%;
@@ -341,47 +486,93 @@ fieldset{
 .main_menu{
 	width: 100%;
 	clear: both;
-	padding-right: 100px;
+	padding-right: 30px;
 	padding-top: 40px;
 	background-color: #fff;
 	height: 100px;
 }
 #article{
 	width: 100%;
-	margin-top: 130px;
+	margin: 120px 10px 0px 10px;
 }
 #article img{
 	width: 100%;
 }
-input{
-	width:400px;
-}
 #article_portfolio{
 	width: 100%;
 	height: 100%;
-	margin-top: 130px;
+	margin: 130px 10px 0px 10px;
 }
 #article_portfolio img{
-	position: static;
-	display: inline-block;
 	width: 100%;
-	height: 100%;
-	padding: 5px;
+	float: left;
 }
-#article_portfolio h3{
-	display: inline-block;
-	position: relative;
-	width: 590px;
-	height: 100px;
-	margin: 0 auto;
-	padding-right: 120px;
+#hangman h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 390px;
+	height: 50px;
+	top: 540px;
+	z-index: 2;
+	margin-left: 20px;
+}
+#rpggame h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 390px;
+	height: 50px;
+	top: 800px;
+	z-index: 2;
+	margin-left: 20px;
+}
+#triviagame h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 390px;
+	height: 50px;
+	top: 1060px;
+	z-index: 2;
+	margin-left: 20px;
+}
+#rutgers_info_widget h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 390px;
+	height: 50px;
+	top: 1310px;
+	left: 10px;
+	z-index: 2;
+	margin-left: 20px;
+}
+#rock_paper_scissors h3{
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa4;
+	color: #fff;
+	width: 390px;
+	height: 50px;
+	top: 1580px;
+	left: 10px;
+	z-index: 2;
+	margin-left: 20px;
+}
+#article form, fieldset, label, input, textarea{
+	width:  90%;
 }
 #aside{
 	width: 100%;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	margin: 20px 10px 20px 10px;
 }
 #footer{
 	width: 100%;
+		margin: 20px 10px 0px 10px;
 }
 }
