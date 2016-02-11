@@ -190,8 +190,8 @@ fieldset{
 #article_portfolio img{
 	position: relative;
 	display: inline-block;
-	width: 260px;
-	height: 260px;
+	width: 450px;
+	height: 280px;
 	padding: 26px 26px 0px 20px;
 	z-index: 1;
 }
@@ -203,9 +203,9 @@ fieldset{
 	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 235px;
+	width: 405px;
 	height: 50px;
-	top: 420px;
+	top: 430px;
 	z-index: 2;
 	margin-left: 20px;
 	
@@ -215,9 +215,9 @@ fieldset{
 	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 235px;
+	width: 405px;
 	height: 50px;
-	top: 690px;
+	top: 720px;
 	z-index: 2;
 	margin-left: 20px;
 }
@@ -226,9 +226,9 @@ fieldset{
 	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 235px;
+	width: 405px;
 	height: 50px;
-	top: 960px;
+	top: 1010px;
 	z-index: 2;
 	margin-left: 20px;
 }
@@ -237,9 +237,9 @@ fieldset{
 	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 235px;
+	width: 405px;
 	height: 50px;
-	top: 1230px;
+	top: 1300px;
 	z-index: 2;
 	margin-left: 20px;
 }
@@ -248,9 +248,9 @@ fieldset{
 	text-align: center;
 	background-color: #4aaaa4;
 	color: #fff;
-	width: 235px;
+	width: 405px;
 	height: 50px;
-	top: 1500px;
+	top: 1590px;
 	z-index: 2;
 	margin-left: 20px;
 }
@@ -514,7 +514,7 @@ fieldset{
 	color: #fff;
 	width: 390px;
 	height: 50px;
-	top: 540px;
+	top: 550px;
 	z-index: 2;
 	margin-left: 20px;
 }
@@ -525,7 +525,7 @@ fieldset{
 	color: #fff;
 	width: 390px;
 	height: 50px;
-	top: 800px;
+	top: 830px;
 	z-index: 2;
 	margin-left: 20px;
 }
@@ -536,7 +536,7 @@ fieldset{
 	color: #fff;
 	width: 390px;
 	height: 50px;
-	top: 1060px;
+	top: 1110px;
 	z-index: 2;
 	margin-left: 20px;
 }
@@ -547,7 +547,7 @@ fieldset{
 	color: #fff;
 	width: 390px;
 	height: 50px;
-	top: 1310px;
+	top: 1400px;
 	left: 10px;
 	z-index: 2;
 	margin-left: 20px;
@@ -559,7 +559,7 @@ fieldset{
 	color: #fff;
 	width: 390px;
 	height: 50px;
-	top: 1580px;
+	top: 1680px;
 	left: 10px;
 	z-index: 2;
 	margin-left: 20px;
